@@ -30,7 +30,7 @@ var debug = false;
                 allEmps.push(this.innerHTML);
             });
             $(".subline-level-1").map(function() {
-                allTitles.push(this.children[0].innerHTML);
+                allTitles.push(this.innerText);
             });
 
             window.scrollTo(0,scroll);
